@@ -1,0 +1,23 @@
+abstract class Atm {
+	abstract void withdraw();
+	abstract void deposite();
+}
+
+public class p5 extends Atm {
+	
+	void withdraw()
+	{
+		  System.out.println("withdraw");
+	}
+	void deposite()
+	{
+		  System.out.println("deposite");
+	}
+
+	public static void main(String[] args) {
+		p5 obj = new p5();
+		obj.withdraw();
+		obj.deposite();	
+	}
+
+}
